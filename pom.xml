@@ -52,6 +52,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>org.jrimum</groupId>
+            <artifactId>jrimum-texgit</artifactId>
+            <version>0.2.3-DEV-SNAPSHOT</version>
+        </dependency>
 	</dependencies>
 
 	<build>

@@ -45,15 +45,13 @@ public class CategoriaService {
 	public void excluir(Integer id) {
 		findById(id);
 		
-		try {
-			
+		try {			
 			this.categoriaRepository.deleteById(id);
 			
 		} catch (DataIntegrityViolationException e) {
 			throw new DateIntegrityViolationException("Categoria não pode ser deletadada! Possui livros associados!");
 			
 		}
-		
 	}
 
 }

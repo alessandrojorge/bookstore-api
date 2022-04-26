@@ -27,3 +27,9 @@ public class DevConfig {
 	}
 
 }
+
+/*
+ * Basicamente quando você coloca a anotação @Bean, você está dizendo para
+ * Spring que quer criar esse objeto e deixar ele disponível para outras classes
+ * utilizarem ele como dependência, por exemplo.
+ */
